@@ -1,0 +1,148 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* -----------  */
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #f2f2f2;
+  width: 100%;
+  height: 50px;
+  background: #762179;
+}
+
+img {
+ 
+  background: #771a7a;
+}
+
+
+form {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 20px;
+  padding-left: 50px;
+}
+label {
+  font-weight: bold;
+}
+.input-name {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.input-email {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.input-dropdown {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin-right: 10px;
+}
+input {
+  border-radius: 5px;
+  padding: 5px;
+  width: 300px;
+  background: #898a8d;
+  border: none;
+}
+select {
+  border-radius: 5px;
+  padding: 5px;
+  width: 300px;
+  background: #898a8d;
+  border: none;
+}
+button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border: none;
+  transition: background-color 0.3s ease;
+  background: rgb(255, 123, 0);
+  color: #f5f5f5;
+  border-radius: 5px;
+  font-weight: bold;
+  width: 150px;
+  margin-left: 20px;
+}
+
+button:hover {
+  background-color: #e0e0e0;
+  cursor: pointer;
+}
+
+.tabela {
+  margin: 50px;
+  border-collapse: collapse;
+}
+
+/* Estilo para o cabeçalho da tabela */
+.tabela th {
+  background-color: #f2f2f2;
+  padding: 10px;
+  border: 1px solid #ccc;
+  font-weight: bold;
+  vertical-align: middle; /* Alinhar verticalmente ao centro */
+}
+
+/* Estilo para as células da tabela */
+.tabela td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  font-weight: bold;
+  vertical-align: middle; /* Alinhar verticalmente ao centro */
+}
+
+/* Efeito hover para as células */
+.tabela td:hover {
+  background-color: #f5f5f5;
+  cursor: pointer;
+}
